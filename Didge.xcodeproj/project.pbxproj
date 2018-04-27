@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA386190208E7E3A0052D422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA38618F208E7E3A0052D422 /* AppDelegate.swift */; };
+		CA386192208E7E3A0052D422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA386191208E7E3A0052D422 /* ViewController.swift */; };
+		CA386195208E7E3A0052D422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA386193208E7E3A0052D422 /* Main.storyboard */; };
+		CA386197208E7E3A0052D422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA386196208E7E3A0052D422 /* Assets.xcassets */; };
+		CA38619A208E7E3A0052D422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA386198208E7E3A0052D422 /* LaunchScreen.storyboard */; };
+		CA3861A3208E7ED90052D422 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A2208E7ED90052D422 /* SpotifyAudioPlayback.framework */; };
+		CA3861A5208E7EE30052D422 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */; };
+		CA3861A8208E80400052D422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A7208E80400052D422 /* AVFoundation.framework */; };
+		CA3861AA208E80470052D422 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A9208E80470052D422 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA38618C208E7E390052D422 /* Didge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Didge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA38618F208E7E3A0052D422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA386191208E7E3A0052D422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA386194208E7E3A0052D422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA386196208E7E3A0052D422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA386199208E7E3A0052D422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA38619B208E7E3A0052D422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3861A2208E7ED90052D422 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		CA3861A7208E80400052D422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CA3861A9208E80470052D422 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA386189208E7E390052D422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3861AA208E80470052D422 /* SystemConfiguration.framework in Frameworks */,
+				CA3861A8208E80400052D422 /* AVFoundation.framework in Frameworks */,
+				CA3861A3208E7ED90052D422 /* SpotifyAudioPlayback.framework in Frameworks */,
+				CA3861A5208E7EE30052D422 /* SpotifyAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA386183208E7E390052D422 = {
+			isa = PBXGroup;
+			children = (
+				CA38618E208E7E390052D422 /* Didge */,
+				CA38618D208E7E390052D422 /* Products */,
+				CA3861A6208E803F0052D422 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA38618D208E7E390052D422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA38618C208E7E390052D422 /* Didge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA38618E208E7E390052D422 /* Didge */ = {
+			isa = PBXGroup;
+			children = (
+				CA3861A1208E7EB30052D422 /* Frameworks */,
+				CA38618F208E7E3A0052D422 /* AppDelegate.swift */,
+				CA386191208E7E3A0052D422 /* ViewController.swift */,
+				CA386193208E7E3A0052D422 /* Main.storyboard */,
+				CA386196208E7E3A0052D422 /* Assets.xcassets */,
+				CA386198208E7E3A0052D422 /* LaunchScreen.storyboard */,
+				CA38619B208E7E3A0052D422 /* Info.plist */,
+			);
+			path = Didge;
+			sourceTree = "<group>";
+		};
+		CA3861A1208E7EB30052D422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */,
+				CA3861A2208E7ED90052D422 /* SpotifyAudioPlayback.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA3861A6208E803F0052D422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3861A9208E80470052D422 /* SystemConfiguration.framework */,
+				CA3861A7208E80400052D422 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA38618B208E7E390052D422 /* Didge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA38619E208E7E3A0052D422 /* Build configuration list for PBXNativeTarget "Didge" */;
+			buildPhases = (
+				CA386188208E7E390052D422 /* Sources */,
+				CA386189208E7E390052D422 /* Frameworks */,
+				CA38618A208E7E390052D422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Didge;
+			productName = Didge;
+			productReference = CA38618C208E7E390052D422 /* Didge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA386184208E7E390052D422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nicholas Loyd";
+				TargetAttributes = {
+					CA38618B208E7E390052D422 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA386187208E7E390052D422 /* Build configuration list for PBXProject "Didge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA386183208E7E390052D422;
+			productRefGroup = CA38618D208E7E390052D422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA38618B208E7E390052D422 /* Didge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA38618A208E7E390052D422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA38619A208E7E3A0052D422 /* LaunchScreen.storyboard in Resources */,
+				CA386197208E7E3A0052D422 /* Assets.xcassets in Resources */,
+				CA386195208E7E3A0052D422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA386188208E7E390052D422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA386192208E7E3A0052D422 /* ViewController.swift in Sources */,
+				CA386190208E7E3A0052D422 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA386193208E7E3A0052D422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA386194208E7E3A0052D422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA386198208E7E3A0052D422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA386199208E7E3A0052D422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA38619C208E7E3A0052D422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA38619D208E7E3A0052D422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA38619F208E7E3A0052D422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y6MSCLCAN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Didge/Frameworks",
+				);
+				INFOPLIST_FILE = Didge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sandiego.Didgej;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3861A0208E7E3A0052D422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y6MSCLCAN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Didge/Frameworks",
+				);
+				INFOPLIST_FILE = Didge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sandiego.Didgej;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA386187208E7E390052D422 /* Build configuration list for PBXProject "Didge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA38619C208E7E3A0052D422 /* Debug */,
+				CA38619D208E7E3A0052D422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA38619E208E7E3A0052D422 /* Build configuration list for PBXNativeTarget "Didge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA38619F208E7E3A0052D422 /* Debug */,
+				CA3861A0208E7E3A0052D422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA386184208E7E390052D422 /* Project object */;
+}
