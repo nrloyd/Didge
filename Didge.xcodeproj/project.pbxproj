@@ -16,6 +16,9 @@
 		CA3861A5208E7EE30052D422 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */; };
 		CA3861A8208E80400052D422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A7208E80400052D422 /* AVFoundation.framework */; };
 		CA3861AA208E80470052D422 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A9208E80470052D422 /* SystemConfiguration.framework */; };
+		CAC37861209CF30000B4F5E9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37860209CF30000B4F5E9 /* Song.swift */; };
+		CAC37863209CFB1400B4F5E9 /* PartyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37862209CFB1400B4F5E9 /* PartyTableViewController.swift */; };
+		CAC37865209D010A00B4F5E9 /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		CA3861A7208E80400052D422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CA3861A9208E80470052D422 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CAC37860209CF30000B4F5E9 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		CAC37862209CFB1400B4F5E9 /* PartyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewController.swift; sourceTree = "<group>"; };
+		CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 				CA38618F208E7E3A0052D422 /* AppDelegate.swift */,
 				CA386191208E7E3A0052D422 /* ViewController.swift */,
 				CA386193208E7E3A0052D422 /* Main.storyboard */,
+				CAC37862209CFB1400B4F5E9 /* PartyTableViewController.swift */,
+				CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */,
+				CAC37860209CF30000B4F5E9 /* Song.swift */,
 				CA386196208E7E3A0052D422 /* Assets.xcassets */,
 				CA386198208E7E3A0052D422 /* LaunchScreen.storyboard */,
 				CA38619B208E7E3A0052D422 /* Info.plist */,
@@ -168,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC37863209CFB1400B4F5E9 /* PartyTableViewController.swift in Sources */,
+				CAC37861209CF30000B4F5E9 /* Song.swift in Sources */,
 				CA386192208E7E3A0052D422 /* ViewController.swift in Sources */,
 				CA386190208E7E3A0052D422 /* AppDelegate.swift in Sources */,
+				CAC37865209D010A00B4F5E9 /* PartyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
