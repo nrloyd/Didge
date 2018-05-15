@@ -17,8 +17,10 @@
 		CA3861A8208E80400052D422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A7208E80400052D422 /* AVFoundation.framework */; };
 		CA3861AA208E80470052D422 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A9208E80470052D422 /* SystemConfiguration.framework */; };
 		CAC37861209CF30000B4F5E9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37860209CF30000B4F5E9 /* Song.swift */; };
-		CAC37863209CFB1400B4F5E9 /* PartyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37862209CFB1400B4F5E9 /* PartyTableViewController.swift */; };
 		CAC37865209D010A00B4F5E9 /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */; };
+		CAC3786B20A3941400B4F5E9 /* PartyTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3786A20A3941400B4F5E9 /* PartyTableTableViewController.swift */; };
+		CAC3786F20A5765600B4F5E9 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3786E20A5765600B4F5E9 /* SearchTableViewController.swift */; };
+		CAC3787120A58C9C00B4F5E9 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3787020A58C9C00B4F5E9 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +36,10 @@
 		CA3861A7208E80400052D422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CA3861A9208E80470052D422 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CAC37860209CF30000B4F5E9 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		CAC37862209CFB1400B4F5E9 /* PartyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewController.swift; sourceTree = "<group>"; };
 		CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
+		CAC3786A20A3941400B4F5E9 /* PartyTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableTableViewController.swift; sourceTree = "<group>"; };
+		CAC3786E20A5765600B4F5E9 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		CAC3787020A58C9C00B4F5E9 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 				CA38618F208E7E3A0052D422 /* AppDelegate.swift */,
 				CA386191208E7E3A0052D422 /* ViewController.swift */,
 				CA386193208E7E3A0052D422 /* Main.storyboard */,
-				CAC37862209CFB1400B4F5E9 /* PartyTableViewController.swift */,
+				CAC3786A20A3941400B4F5E9 /* PartyTableTableViewController.swift */,
+				CAC3786E20A5765600B4F5E9 /* SearchTableViewController.swift */,
 				CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */,
+				CAC3787020A58C9C00B4F5E9 /* SearchTableViewCell.swift */,
 				CAC37860209CF30000B4F5E9 /* Song.swift */,
 				CA386196208E7E3A0052D422 /* Assets.xcassets */,
 				CA386198208E7E3A0052D422 /* LaunchScreen.storyboard */,
@@ -177,11 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC37863209CFB1400B4F5E9 /* PartyTableViewController.swift in Sources */,
 				CAC37861209CF30000B4F5E9 /* Song.swift in Sources */,
+				CAC3786F20A5765600B4F5E9 /* SearchTableViewController.swift in Sources */,
 				CA386192208E7E3A0052D422 /* ViewController.swift in Sources */,
 				CA386190208E7E3A0052D422 /* AppDelegate.swift in Sources */,
+				CAC3786B20A3941400B4F5E9 /* PartyTableTableViewController.swift in Sources */,
 				CAC37865209D010A00B4F5E9 /* PartyTableViewCell.swift in Sources */,
+				CAC3787120A58C9C00B4F5E9 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Y6MSCLCAN;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Didge/Frameworks",
@@ -328,6 +337,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.sandiego.Didgej;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,8 +347,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Y6MSCLCAN;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Didge/Frameworks",
@@ -348,6 +359,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.sandiego.Didgej;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

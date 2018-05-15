@@ -1,14 +1,14 @@
 //
-//  PartyTableViewCell.swift
+//  SearchTableViewCell.swift
 //  Didge
 //
-//  Created by Nicholas Loyd on 5/4/18.
+//  Created by Nicholas Loyd on 5/11/18.
 //  Copyright © 2018 Nicholas Loyd. All rights reserved.
 //
 
 import UIKit
 
-class PartyTableViewCell: UITableViewCell {
+class SearchTableViewCell: UITableViewCell {
 
     @IBOutlet weak var songTitle: UILabel!
     @IBOutlet weak var artistLabel: UILabel!
