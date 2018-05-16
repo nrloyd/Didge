@@ -13,7 +13,7 @@ class Song: Comparable{
     }
     
     static func ==(lhs: Song, rhs: Song) -> Bool {
-        return lhs.score == rhs.score
+        return lhs.title == rhs.title
     }
     
     var title : String

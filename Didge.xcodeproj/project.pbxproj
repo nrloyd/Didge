@@ -16,6 +16,7 @@
 		CA3861A5208E7EE30052D422 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */; };
 		CA3861A8208E80400052D422 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A7208E80400052D422 /* AVFoundation.framework */; };
 		CA3861AA208E80470052D422 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3861A9208E80470052D422 /* SystemConfiguration.framework */; };
+		CAAB1D7820ABA78F0046C5F0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB1D7720ABA78F0046C5F0 /* StartViewController.swift */; };
 		CAC37861209CF30000B4F5E9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37860209CF30000B4F5E9 /* Song.swift */; };
 		CAC37865209D010A00B4F5E9 /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */; };
 		CAC3786B20A3941400B4F5E9 /* PartyTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3786A20A3941400B4F5E9 /* PartyTableTableViewController.swift */; };
@@ -35,6 +36,7 @@
 		CA3861A4208E7EE30052D422 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		CA3861A7208E80400052D422 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CA3861A9208E80470052D422 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CAAB1D7720ABA78F0046C5F0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		CAC37860209CF30000B4F5E9 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
 		CAC3786A20A3941400B4F5E9 /* PartyTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyTableTableViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				CA38618F208E7E3A0052D422 /* AppDelegate.swift */,
 				CA386191208E7E3A0052D422 /* ViewController.swift */,
 				CA386193208E7E3A0052D422 /* Main.storyboard */,
+				CAAB1D7720ABA78F0046C5F0 /* StartViewController.swift */,
 				CAC3786A20A3941400B4F5E9 /* PartyTableTableViewController.swift */,
 				CAC3786E20A5765600B4F5E9 /* SearchTableViewController.swift */,
 				CAC37864209D010A00B4F5E9 /* PartyTableViewCell.swift */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC37861209CF30000B4F5E9 /* Song.swift in Sources */,
+				CAAB1D7820ABA78F0046C5F0 /* StartViewController.swift in Sources */,
 				CAC3786F20A5765600B4F5E9 /* SearchTableViewController.swift in Sources */,
 				CA386192208E7E3A0052D422 /* ViewController.swift in Sources */,
 				CA386190208E7E3A0052D422 /* AppDelegate.swift in Sources */,

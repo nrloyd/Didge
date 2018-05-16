@@ -47,7 +47,9 @@ class SearchTableViewController: UITableViewController {
             self.selectedSong.append(songs[selectedIndexPath.row])
             let partyViewController = segue.destination as? PartyTableTableViewController
             //print(partyViewController?.songsList.count)
-            partyViewController?.songsList += selectedSong
+            if !(partyViewController?.songsList.contains(selectedSong[0]))!{
+                partyViewController?.songsList += selectedSong
+            }
             //print(partyViewController?.songsList.count)
         }
     }

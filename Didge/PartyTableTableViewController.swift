@@ -39,7 +39,10 @@ class PartyTableTableViewController: UITableViewController {
         return cell
         
     }
-
+    @IBAction func LeaveEventButtonPressed(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "backToBeginning", sender: nil)
+    }
+    
     @IBAction func unwindFromSearch(sender: UIStoryboardSegue) {
         if let source = sender.source as? SearchTableViewController {
             //songsList.append(source.selectedSong[0])
